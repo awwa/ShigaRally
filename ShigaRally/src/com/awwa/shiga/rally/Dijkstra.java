@@ -6,6 +6,10 @@ public class Dijkstra
 	private static final String TAG = Dijkstra.class.getSimpleName();
 	private final Dijkstra self = this;
 
+	/**
+	 * 
+	 * @param routes
+	 */
 	public void calc(Route[] routes)
 	{
 		while (true)
